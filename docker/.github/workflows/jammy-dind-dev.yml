@@ -3,7 +3,7 @@ name: Create and publish a Docker image
 on:
   push:
     paths:
-      - "./jammy-dind-dev"
+      - "./jammy-dind-dev/"
 
 env:
   REGISTRY: ghcr.io
